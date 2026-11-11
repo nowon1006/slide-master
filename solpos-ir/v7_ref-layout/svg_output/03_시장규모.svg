@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#003597"/>
+      <stop offset="60%" stop-color="#0062DF"/>
+      <stop offset="100%" stop-color="#9DB8FF"/>
+    </linearGradient>
+    <linearGradient id="tamGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9DB8FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#9DB8FF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="samGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9DB8FF" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0062DF" stop-opacity="0.30"/>
+    </linearGradient>
+    <linearGradient id="somGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9DB8FF"/>
+      <stop offset="60%" stop-color="#0062DF"/>
+      <stop offset="100%" stop-color="#003597"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="top-bar">
+    <rect x="0" y="0" width="1280" height="12" fill="url(#barGrad)"/>
+  </g>
+
+  <g id="header">
+    <text x="640" y="56" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#0062DF">2. 시장규모 · TAM-SAM-SOM</text>
+    <text x="640" y="104" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1A2434">IT 하드웨어 성능 검증·인증 시장, <tspan fill="#0062DF">2031년 약 1.2조 원</tspan></text>
+  </g>
+
+  <g id="market-rings">
+    <rect x="80" y="132" width="440" height="472" rx="0" fill="#F4F5F7"/>
+    <circle cx="300" cy="368" r="170" fill="url(#tamGrad)"/>
+    <circle cx="300" cy="422" r="116" fill="url(#samGrad)"/>
+    <circle cx="300" cy="472" r="66" fill="url(#somGrad)"/>
+    <text x="300" y="246" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#0062DF">TAM</text>
+    <text x="300" y="276" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1A2434">$71.8B ('31)</text>
+    <text x="300" y="342" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#003597">SAM</text>
+    <text x="300" y="372" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1A2434">$19.4B ('31)</text>
+    <text x="300" y="464" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">SOM</text>
+    <text x="300" y="494" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">약 1.2조 원</text>
+  </g>
+
+  <g id="market-head">
+    <rect x="544" y="132" width="656" height="44" rx="0" fill="#003597"/>
+    <text x="568" y="160" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">구분</text>
+    <text x="664" y="160" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">시장</text>
+    <text x="864" y="160" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">규모</text>
+    <text x="1076" y="160" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">성장률</text>
+  </g>
+
+  <g id="row-tam">
+    <rect x="544" y="180" width="656" height="72" rx="0" fill="#F4F5F7"/>
+    <text x="568" y="224" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#0062DF">TAM</text>
+    <text x="664" y="211" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">글로벌 IT 자산관리<tspan x="664" dy="22">및 운영 SW</tspan></text>
+    <text x="864" y="211" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">$40.67B('26) →<tspan x="864" dy="22">$71.82B('31)</tspan></text>
+    <text x="1076" y="222" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">CAGR 12.05%</text>
+  </g>
+
+  <g id="row-sam">
+    <rect x="544" y="256" width="656" height="72" rx="0" fill="#F4F5F7"/>
+    <text x="568" y="300" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#0062DF">SAM</text>
+    <text x="664" y="287" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">글로벌 IT 인프라<tspan x="664" dy="22">모니터링 SW</tspan></text>
+    <text x="864" y="287" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">$13.72B('26) →<tspan x="864" dy="22">$19.42B('31)</tspan></text>
+    <text x="1076" y="298" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">CAGR 7.2%</text>
+  </g>
+
+  <g id="row-som">
+    <rect x="544" y="332" width="656" height="72" rx="0" fill="#0062DF"/>
+    <text x="568" y="376" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">SOM</text>
+    <text x="664" y="363" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#FFFFFF">글로벌 IT HW 성능<tspan x="664" dy="22">검증·인증 SW</tspan></text>
+    <text x="864" y="363" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#FFFFFF">약 8,400억 원('26) →<tspan x="864" dy="22">약 1조 1,892억 원('31)</tspan></text>
+    <text x="1076" y="374" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">당사 추정</text>
+  </g>
+
+  <g id="row-kr">
+    <rect x="544" y="408" width="656" height="72" rx="0" fill="#F4F5F7"/>
+    <text x="568" y="452" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#003597">국내</text>
+    <text x="664" y="439" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">중고 노트북 시장 중<tspan x="664" dy="22">인증 요구분 15%</tspan></text>
+    <text x="864" y="439" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">약 3,000억 원('31) 중<tspan x="864" dy="22">450억 원</tspan></text>
+    <text x="1076" y="450" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">당사 추정</text>
+  </g>
+
+  <g id="path-head">
+    <rect x="544" y="497" width="6" height="24" rx="0" fill="#0062DF"/>
+    <text x="562" y="518" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1A2434">시장 진입 경로</text>
+    <text x="1200" y="518" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#565D6A">(6개 영업부문)</text>
+  </g>
+
+  <g id="path-flow">
+    <g id="path-p1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="544 540 140 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="b60553a79c4656b649f7fcd883e6e735fc5bfc109cba7a04c581873b1fd34623">
+    <path d="M 544 540 L 666.08 540 L 684 572 L 666.08 604 L 544 604 L 561.92 572 Z" fill="#F4F5F7" stroke="none" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="544 540 140 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="b60553a79c4656b649f7fcd883e6e735fc5bfc109cba7a04c581873b1fd34623" data-pptx-part="geometry" visibility="hidden" pointer-events="none"/>
+    <g data-pptx-part="geometry-preview">
+    <path d="M 544 540 L 666.08 540 L 684 572 L 666.08 604 L 544 604 L 561.92 572 Z" fill="#F4F5F7" stroke="none" data-pptx-part="geometry-detail"/>
+    </g>
+    </g>
+    <g id="path-p2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="672 540 140 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="c06ecedc9880a78690f2385f35ebfddd1e01f8b015c12b58462df63945372551">
+    <path d="M 672 540 L 794.08 540 L 812 572 L 794.08 604 L 672 604 L 689.92 572 Z" fill="#F4F5F7" stroke="none" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="672 540 140 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="c06ecedc9880a78690f2385f35ebfddd1e01f8b015c12b58462df63945372551" data-pptx-part="geometry" visibility="hidden" pointer-events="none"/>
+    <g data-pptx-part="geometry-preview">
+    <path d="M 672 540 L 794.08 540 L 812 572 L 794.08 604 L 672 604 L 689.92 572 Z" fill="#F4F5F7" stroke="none" data-pptx-part="geometry-detail"/>
+    </g>
+    </g>
+    <g id="path-p3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="800 540 232 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="94f8eb775c4989d33ba3e5035e869dcfa773a4c836f421137e3ff0dd320892c8">
+    <path d="M 800 540 L 1014.08 540 L 1032 572 L 1014.08 604 L 800 604 L 817.92 572 Z" fill="#F4F5F7" stroke="none" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="800 540 232 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="94f8eb775c4989d33ba3e5035e869dcfa773a4c836f421137e3ff0dd320892c8" data-pptx-part="geometry" visibility="hidden" pointer-events="none"/>
+    <g data-pptx-part="geometry-preview">
+    <path d="M 800 540 L 1014.08 540 L 1032 572 L 1014.08 604 L 800 604 L 817.92 572 Z" fill="#F4F5F7" stroke="none" data-pptx-part="geometry-detail"/>
+    </g>
+    </g>
+    <g id="path-p4" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="1020 540 180 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="4bc4bcff7fa6767fbce940f80fe3ff8e2d1c2c9be534a5686598c397c44a797b">
+    <path d="M 1020 540 L 1182.08 540 L 1200 572 L 1182.08 604 L 1020 604 L 1037.92 572 Z" fill="#0062DF" stroke="none" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="1020 540 180 64" data-pptx-av-adj="val 28000" data-pptx-preview-sha256="4bc4bcff7fa6767fbce940f80fe3ff8e2d1c2c9be534a5686598c397c44a797b" data-pptx-part="geometry" visibility="hidden" pointer-events="none"/>
+    <g data-pptx-part="geometry-preview">
+    <path d="M 1020 540 L 1182.08 540 L 1200 572 L 1182.08 604 L 1020 604 L 1037.92 572 Z" fill="#0062DF" stroke="none" data-pptx-part="geometry-detail"/>
+    </g>
+    </g>
+  </g>
+  <g id="path-labels">
+    <text x="621" y="578" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">중고 IT 거래</text>
+    <text x="749" y="578" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">IT 자산관리</text>
+    <text x="923" y="578" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">공공조달·렌탈·보험 검수</text>
+    <text x="1117" y="578" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">피지컬 AI 진단</text>
+  </g>
+
+  <g id="key-message">
+    <rect x="80" y="620" width="1120" height="48" rx="0" fill="#0062DF"/>
+    <text x="640" y="651" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">목표: 2031년 SOM 시장에서 점유율 약 1%, 매출 127억 원</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="691" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#565D6A">출처: Gartner, Market Share: IT Operations Management Software, Worldwide, 2024 · Persistence Market Research,<tspan x="80" dy="20">IT Infrastructure Monitoring Market, 2025–2032 · 당사 추정(2026.08)</tspan></text>
+    <image href="../images/sp_navy.png" x="1114" y="682" width="44" height="26" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1200" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">05</text>
+  </g>
+</svg>

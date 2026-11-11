@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#003597"/>
+      <stop offset="60%" stop-color="#0062DF"/>
+      <stop offset="100%" stop-color="#9DB8FF"/>
+    </linearGradient>
+    <linearGradient id="vennA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0062DF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0062DF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="vennB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9DB8FF" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#9DB8FF" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="vennC" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#003597" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#003597" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="top-bar">
+    <rect x="0" y="0" width="1280" height="12" fill="url(#barGrad)"/>
+  </g>
+
+  <g id="header">
+    <text x="640" y="56" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#0062DF">5. 경쟁 환경 · 성공사례와 차별점</text>
+    <text x="640" y="104" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1A2434">중고 IT 검증·진단 분야, <tspan fill="#0062DF">글로벌 대형 투자·인수 사례</tspan></text>
+  </g>
+
+  <g id="venn-head">
+    <rect x="80" y="132" width="440" height="44" rx="0" fill="#003597"/>
+    <text x="300" y="161" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">3가지 핵심 차별점</text>
+  </g>
+
+  <g id="venn">
+    <rect x="80" y="176" width="440" height="380" rx="0" fill="#F4F5F7"/>
+    <circle cx="242" cy="316" r="100" fill="url(#vennA)"/>
+    <circle cx="358" cy="316" r="100" fill="url(#vennB)"/>
+    <circle cx="300" cy="416" r="100" fill="url(#vennC)"/>
+    <text x="196" y="296" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1A2434">가동 중<tspan x="196" dy="26">가속 검증</tspan></text>
+    <text x="404" y="296" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1A2434">등급과<tspan x="404" dy="26">성적서</tspan></text>
+    <text x="300" y="468" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1A2434">특허와 평생<tspan x="300" dy="26">이력 데이터</tspan></text>
+    <rect x="252" y="328" width="96" height="60" rx="4" fill="#FFFFFF"/>
+    <image href="../images/ds_logo.png" x="256" y="332" width="88" height="52" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g id="callout">
+    <rect x="80" y="556" width="440" height="48" rx="0" fill="#0062DF"/>
+    <text x="300" y="586" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">국내에는 PC·서버 성능을 등급으로 인증하는 사업자 부재</text>
+  </g>
+
+  <g id="diff-1">
+    <rect x="544" y="132" width="64" height="64" rx="0" fill="#0062DF"/>
+    <text x="576" y="172" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">01</text>
+    <rect x="608" y="132" width="592" height="64" rx="0" fill="#F4F5F7"/>
+    <text x="632" y="160" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1A2434">4단계 부하 가속으로 24개 지표 실측.<tspan x="632" dy="22" font-size="16" font-weight="normal" fill="#565D6A">설치파일 하나로 측정, 별도 장비 불필요</tspan></text>
+    <use data-icon="phosphor-duotone/gauge" x="1152" y="148" width="32" height="32" fill="#0062DF"/>
+  </g>
+
+  <g id="diff-2">
+    <rect x="544" y="204" width="64" height="64" rx="0" fill="#0062DF"/>
+    <text x="576" y="244" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">02</text>
+    <rect x="608" y="204" width="592" height="64" rx="0" fill="#F4F5F7"/>
+    <text x="632" y="232" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1A2434">6등급 + QR 인증 시험성적서 자동 발급.<tspan x="632" dy="22" font-size="16" font-weight="normal" fill="#565D6A">중고 거래·자산 실사·보험 심사의 공통 기준으로 사용</tspan></text>
+    <use data-icon="phosphor-duotone/certificate" x="1152" y="220" width="32" height="32" fill="#0062DF"/>
+  </g>
+
+  <g id="diff-3">
+    <rect x="544" y="276" width="64" height="64" rx="0" fill="#0062DF"/>
+    <text x="576" y="316" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">03</text>
+    <rect x="608" y="276" width="592" height="64" rx="0" fill="#F4F5F7"/>
+    <text x="632" y="304" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1A2434">등록 2건·출원 4건, IP 가치 24.18억 원.<tspan x="632" dy="22" font-size="16" font-weight="normal" fill="#565D6A">에이전트로 쌓이는 기기별 이력이 AI 진단 학습 자산</tspan></text>
+    <use data-icon="phosphor-duotone/database" x="1152" y="292" width="32" height="32" fill="#0062DF"/>
+  </g>
+
+  <g id="cases-head">
+    <rect x="544" y="360" width="6" height="24" rx="0" fill="#0062DF"/>
+    <text x="562" y="381" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1A2434">글로벌 성공사례</text>
+  </g>
+
+  <g id="cases-table" data-pptx-native="table">
+    <metadata data-pptx-native="table">
+{"name":"cases-table","x":544,"y":396,"width":656,"height":208,"strict_grid":true,"header_rows":1,
+"column_widths":[136,304,216],"row_heights":[44,82,82],
+"style":{"font_family":"Pretendard","font_size":16,"band_row":false,"padding":{"left":16,"right":8,"top":2,"bottom":2}},
+"columns":[{"text":"기업","bold":true,"fill":"#003597","color":"#FFFFFF"},{"text":"내용","bold":true,"fill":"#003597","color":"#FFFFFF"},{"text":"성과","bold":true,"fill":"#003597","color":"#FFFFFF"}],
+"rows":[
+[{"paragraphs":["Back Market","(프랑스)"],"bold":true,"fill":"#F4F5F7","color":"#0062DF"},{"paragraphs":["리퍼 전자기기 마켓플레이스","등급 검수 기반 거래, 고객 600만 명"],"fill":"#F4F5F7","color":"#1A2434"},{"paragraphs":["2022 시리즈E","5.1억 달러 유치","기업가치 57억 달러"],"fill":"#F4F5F7","color":"#1A2434"}],
+[{"paragraphs":["Blancco","(영국)"],"bold":true,"fill":"#F4F5F7","color":"#0062DF"},{"paragraphs":["IT 기기 데이터 삭제·진단 SW","ITAD·리퍼 업체 대상"],"fill":"#F4F5F7","color":"#1A2434"},{"paragraphs":["2023 Francisco","Partners 인수","약 1.75억 파운드"],"fill":"#F4F5F7","color":"#1A2434"}]]}
+    </metadata>
+    <rect x="544" y="396" width="656" height="44" rx="0" fill="#003597"/>
+    <text x="560" y="424" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">기업</text>
+    <text x="696" y="424" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">내용</text>
+    <text x="1000" y="424" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">성과</text>
+
+    <rect x="544" y="442" width="656" height="80" rx="0" fill="#F4F5F7"/>
+    <text x="560" y="477" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#0062DF">Back Market<tspan x="560" dy="22">(프랑스)</tspan></text>
+    <text x="696" y="477" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">리퍼 전자기기 마켓플레이스<tspan x="696" dy="22">등급 검수 기반 거래, 고객 600만 명</tspan></text>
+    <text x="1000" y="466" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">2022 시리즈E<tspan x="1000" dy="21">5.1억 달러 유치</tspan><tspan x="1000" dy="21" font-weight="bold">기업가치 57억 달러</tspan></text>
+
+    <rect x="544" y="524" width="656" height="80" rx="0" fill="#F4F5F7"/>
+    <text x="560" y="559" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#0062DF">Blancco<tspan x="560" dy="22">(영국)</tspan></text>
+    <text x="696" y="559" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">IT 기기 데이터 삭제·진단 SW<tspan x="696" dy="22">ITAD·리퍼 업체 대상</tspan></text>
+    <text x="1000" y="548" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1A2434">2023 Francisco<tspan x="1000" dy="21">Partners 인수</tspan><tspan x="1000" dy="21" font-weight="bold">약 1.75억 파운드</tspan></text>
+  </g>
+
+  <g id="key-message">
+    <rect x="80" y="620" width="1120" height="48" rx="0" fill="#0062DF"/>
+    <text x="640" y="651" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">거래 시장이 커질수록 검증 수요 동반 성장 · 검증 기준을 가진 기업이 시장 주도</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#565D6A">출처: Back Market 보도자료(2022.01), Francisco Partners 보도자료(2023.12)</text>
+    <image href="../images/sp_navy.png" x="1114" y="682" width="44" height="26" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1200" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" font-weight="bold" fill="#1A2434">15</text>
+  </g>
+</svg>
