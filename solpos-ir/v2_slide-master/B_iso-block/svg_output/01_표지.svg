@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="cover">
+  <defs>
+    <linearGradient id="navyPlane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="100%" stop-color="#2D5BFF"/>
+    </linearGradient>
+    <filter id="cardLift" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1E2188" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="tint-blocks">
+    <rect x="1120" y="0" width="160" height="72" fill="#F1F3FA"/>
+    <rect x="1200" y="72" width="80" height="80" fill="#DDE3F5"/>
+  </g>
+
+  <g id="brand-bar">
+    <image href="../images/sp_navy.png" x="60" y="44" width="120" height="70" preserveAspectRatio="xMidYMid meet"/>
+    <text x="860" y="82" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">IR DECK  |  2026. 11</text>
+  </g>
+
+  <g id="headline">
+    <text x="60" y="210" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#2D5BFF">구간 가속 진단 기술이 적용된</text>
+    <text x="60" y="290" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="60" font-weight="bold" fill="#1E2188">컴퓨터·AI 반도체 성능 인증과
+      <tspan x="60" dy="78">평생관리 에이전트, 딥스펙</tspan>
+    </text>
+  </g>
+
+  <g id="process-chips">
+    <rect x="60" y="414" width="96" height="48" rx="4" fill="#1E2188"/>
+    <text x="108" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">측정</text>
+    <text x="174" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#2D5BFF">→</text>
+    <rect x="192" y="414" width="160" height="48" rx="4" fill="#1E2188"/>
+    <text x="272" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">6등급 판정</text>
+    <text x="370" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#2D5BFF">→</text>
+    <rect x="388" y="414" width="168" height="48" rx="4" fill="#1E2188"/>
+    <text x="472" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">시험성적서</text>
+    <text x="574" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#2D5BFF">→</text>
+    <rect x="592" y="414" width="148" height="48" rx="4" fill="#2D5BFF"/>
+    <text x="666" y="446" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">평생관리</text>
+  </g>
+
+  <g id="chip-band">
+    <rect x="0" y="508" width="1280" height="212" fill="url(#navyPlane)"/>
+    <polygon points="780,590 828,566 876,590 828,614" fill="#FFFFFF"/>
+    <polygon points="780,590 828,614 828,662 780,638" fill="#5CD0FF"/>
+    <polygon points="828,614 876,590 876,638 828,662" fill="#DDE3F5"/>
+    <polygon points="780,542 828,518 876,542 828,566" fill="#F1CE36"/>
+    <polygon points="780,542 828,566 828,614 780,590" fill="#5CD0FF"/>
+    <polygon points="828,566 876,542 876,590 828,614" fill="#DDE3F5"/>
+    <polygon points="828,614 876,590 924,614 876,638" fill="#FFFFFF"/>
+    <polygon points="828,614 876,638 876,686 828,662" fill="#5CD0FF"/>
+    <polygon points="876,638 924,614 924,662 876,686" fill="#DDE3F5"/>
+    <polygon points="732,614 780,590 828,614 780,638" fill="#FFFFFF"/>
+    <polygon points="732,614 780,638 780,686 732,662" fill="#5CD0FF"/>
+    <polygon points="780,638 828,614 828,662 780,686" fill="#DDE3F5"/>
+    <polygon points="828,566 876,542 924,566 876,590" fill="#FFFFFF"/>
+    <polygon points="828,566 876,590 876,638 828,614" fill="#5CD0FF"/>
+    <polygon points="876,590 924,566 924,614 876,638" fill="#DDE3F5"/>
+    <polygon points="876,638 924,614 972,638 924,662" fill="#FFFFFF"/>
+    <polygon points="876,638 924,662 924,710 876,686" fill="#5CD0FF"/>
+    <polygon points="924,662 972,638 972,686 924,710" fill="#DDE3F5"/>
+    <polygon points="780,638 828,614 876,638 828,662" fill="#FFFFFF"/>
+    <polygon points="780,638 828,662 828,710 780,686" fill="#5CD0FF"/>
+    <polygon points="828,662 876,638 876,686 828,710" fill="#DDE3F5"/>
+    <text x="60" y="572" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#FFFFFF">DeepSpec Auto v3.1 · DeepSpec Agent 2종 ·
+      <tspan x="60" dy="36">강원대 4개 캠퍼스 안심거래 플랫폼</tspan>
+    </text>
+    <text x="60" y="684" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85">솔포스 주식회사  |  대표이사 김창선  |  www.deepspec.kr</text>
+  </g>
+
+  <g id="product-card">
+    <rect x="900" y="96" width="320" height="388" rx="4" fill="#FFFFFF" filter="url(#cardLift)"/>
+    <image href="../images/image-1-2.png" x="920" y="112" width="280" height="273" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="900" y="396" width="320" height="88" rx="4" fill="#F1F3FA"/>
+    <image href="../images/ds_logo.png" x="980" y="402" width="160" height="76" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+</svg>

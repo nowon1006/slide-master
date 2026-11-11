@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="keyBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="65%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <linearGradient id="statBand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="60%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5CD0FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5CD0FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardRest" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1E2188" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FF"/>
+
+  <g id="ambient" data-pptx-role="decoration">
+    <circle cx="1250" cy="20" r="200" fill="url(#bloom)" fill-opacity="0.15"/>
+    <circle cx="1188" cy="58" r="26" fill="#6FA8FF" fill-opacity="0.15"/>
+  </g>
+
+  <g id="header">
+    <rect x="60" y="40" width="190" height="34" rx="17" fill="#2D5BFF"/>
+    <text x="155" y="63" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">1. 문제 정의 · 현실</text>
+    <text x="60" y="126" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1E2188">거래 사기 · 부품 털이 · AI 명령 거부, 하드웨어를 믿을 근거 부재</text>
+  </g>
+
+  <g id="core-message">
+    <rect x="60" y="146" width="1160" height="56" rx="28" fill="url(#keyBand)"/>
+    <text x="88" y="183" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">사진과 말만 믿고 사는 중고 IT, 통제 밖에서 움직이는 AI, 멈추고 나서야 아는 서버</text>
+  </g>
+
+  <g id="news-cards">
+    <g id="news-1">
+      <rect x="60" y="222" width="272" height="272" rx="22" fill="#FFFFFF" filter="url(#cardRest)"/>
+      <image href="../images/image-2-2.jpg" x="72" y="234" width="248" height="139" preserveAspectRatio="xMidYMid meet"/>
+      <text x="72" y="396" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#12152E">중고거래로 맥북 샀는데</text>
+      <text x="72" y="442" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">KBS 자막뉴스 · 2024.03.13
+        <tspan x="72" dy="20">youtube.com/</tspan><tspan x="72" dy="20">watch?v=aCLYk93TMWw</tspan>
+      </text>
+    </g>
+    <g id="news-2">
+      <rect x="356" y="222" width="272" height="272" rx="22" fill="#FFFFFF" filter="url(#cardRest)"/>
+      <image href="../images/image-2-3.jpg" x="368" y="234" width="248" height="139" preserveAspectRatio="xMidYMid meet"/>
+      <text x="368" y="396" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#12152E">램값이 금값, 중고
+        <tspan x="368" dy="22">거래에 PC 털이까지</tspan>
+      </text>
+      <text x="368" y="442" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">SBS 뉴스 · 2026
+        <tspan x="368" dy="20">youtube.com/</tspan><tspan x="368" dy="20">watch?v=QW3PfvUsnM0</tspan>
+      </text>
+    </g>
+    <g id="news-3">
+      <rect x="652" y="222" width="272" height="272" rx="22" fill="#FFFFFF" filter="url(#cardRest)"/>
+      <image href="../images/image-2-4.jpg" x="664" y="234" width="248" height="139" preserveAspectRatio="xMidYMid meet"/>
+      <text x="664" y="396" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#12152E">AI, 명령 거부 + 코드 조작까지</text>
+      <text x="664" y="442" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">YTN · 2025.05
+        <tspan x="664" dy="20">youtube.com/</tspan><tspan x="664" dy="20">watch?v=NsTJt3sEoW8</tspan>
+      </text>
+    </g>
+    <g id="news-4">
+      <rect x="948" y="222" width="272" height="272" rx="22" fill="#FFFFFF" filter="url(#cardRest)"/>
+      <image href="../images/image-2-5.jpg" x="960" y="234" width="248" height="139" preserveAspectRatio="xMidYMid meet"/>
+      <text x="960" y="396" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#12152E">정부 시스템 647개 중단</text>
+      <text x="960" y="442" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">SBS 8뉴스 · 2025.09.27
+        <tspan x="960" dy="20">youtube.com/</tspan><tspan x="960" dy="20">watch?v=cpbq9fR_4Bw</tspan>
+      </text>
+    </g>
+  </g>
+
+  <g id="stat-band">
+    <rect x="0" y="508" width="1280" height="160" fill="url(#statBand)"/>
+    <circle cx="1180" cy="560" r="90" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="60" y="522" width="150" height="32" rx="16" fill="#FFFFFF"/>
+    <text x="135" y="545" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">중고 거래 사기</text>
+    <text x="60" y="604" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#F1CE36">2.3배</text>
+    <text x="60" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">동일 사양 중고 노트북
+      <tspan x="60" dy="22">매입처별 사정가 편차</tspan>
+    </text>
+    <rect x="356" y="522" width="150" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.92"/>
+    <text x="431" y="545" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">부품 빼돌리기</text>
+    <text x="356" y="604" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">40~50만 대</text>
+    <text x="356" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">연간 중고 노트북 유통
+      <tspan x="356" dy="22">성능 기준 가격 없음</tspan>
+    </text>
+    <rect x="652" y="522" width="140" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.92"/>
+    <text x="722" y="545" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">AI 통제 이탈</text>
+    <text x="652" y="604" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">2025.05</text>
+    <text x="652" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">AI의 종료 지시 거부
+      <tspan x="652" dy="22">첫 사례 보고(YTN 보도)</tspan>
+    </text>
+    <rect x="948" y="522" width="160" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.92"/>
+    <text x="1028" y="545" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">전산 인프라 마비</text>
+    <text x="948" y="604" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">647개</text>
+    <text x="948" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">2025.09 화재로 중단된
+      <tspan x="948" dy="22">정부 업무 시스템(SBS 보도)</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">출처: KBS News·SBS 뉴스·YTN 유튜브(각 영상 제목·화면 인용), 당사 시장 조사(2026.08)</text>
+    <image href="../images/sp_navy.png" x="1130" y="680" width="48" height="28" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1220" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">02</text>
+  </g>
+</svg>

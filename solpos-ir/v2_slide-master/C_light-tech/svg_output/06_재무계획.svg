@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="65%" stop-color="#106EB8"/>
+      <stop offset="100%" stop-color="#22C3EE"/>
+    </linearGradient>
+    <linearGradient id="deepPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="100%" stop-color="#22C3EE"/>
+    </linearGradient>
+    <filter id="heroGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#F1CE36" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="ambient">
+    <circle cx="1132" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1152" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1172" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1192" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1212" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/>
+    <circle cx="1132" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1152" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1172" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1192" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1212" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/>
+  </g>
+
+  <g id="header">
+    <rect x="60" y="44" width="8" height="8" rx="2" fill="#1E2188"/><rect x="70" y="44" width="8" height="8" rx="2" fill="#106EB8"/><rect x="60" y="54" width="8" height="8" rx="2" fill="#22C3EE"/><rect x="70" y="54" width="8" height="8" rx="2" fill="#1E2188"/>
+    <text x="90" y="60" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#106EB8">9. 재무 계획 · 매출 추정</text>
+    <text x="60" y="122" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1E2188">6개 영업부문, 2031년 매출 127억 원 목표</text>
+  </g>
+
+  <g id="core-message">
+    <rect x="60" y="142" width="1160" height="56" rx="12" fill="url(#ribbon)"/>
+    <text x="84" y="179" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">투자 후 12개월 5.0억 원(유통 비중 80%) → 2027년 9.4억 원(유통 33%, 진단·플랫폼·구독 중심)</text>
+  </g>
+
+  <g id="revenue-table" data-pptx-native="table">
+    <metadata data-pptx-native="table">
+{"name":"revenue-table","x":60,"y":222,"width":1160,"height":302,"strict_grid":true,"header_rows":1,
+"column_widths":[220,156,156,156,156,156,160],"row_heights":[36,36,36,36,36,36,36,38],
+"style":{"font_family":"Pretendard","font_size":20,"band_row":false,"padding":{"left":24,"right":24,"top":2,"bottom":2}},
+"columns":[{"text":"영업부문","bold":true,"fill":"#106EB8","color":"#FFFFFF"},{"text":"2027","bold":true,"fill":"#106EB8","color":"#FFFFFF","align":"r"},{"text":"2028","bold":true,"fill":"#106EB8","color":"#FFFFFF","align":"r"},{"text":"2029","bold":true,"fill":"#106EB8","color":"#FFFFFF","align":"r"},{"text":"2030","bold":true,"fill":"#106EB8","color":"#FFFFFF","align":"r"},{"text":"2031","bold":true,"fill":"#106EB8","color":"#FFFFFF","align":"r"},{"text":"5개년","bold":true,"fill":"#106EB8","color":"#FFFFFF","align":"r"}],
+"rows":[
+[{"text":"IT 자산관리","bold":true,"color":"#1E2188","fill":"#EEF3FF"},{"text":"2.0","align":"r","fill":"#EEF3FF"},{"text":"4.0","align":"r","fill":"#EEF3FF"},{"text":"7.0","align":"r","fill":"#EEF3FF"},{"text":"18.0","align":"r","fill":"#EEF3FF"},{"text":"24","align":"r","fill":"#EEF3FF"},{"text":"55","align":"r","fill":"#EEF3FF"}],
+[{"text":"공공조달 검수","bold":true,"color":"#1E2188","fill":"#EEF3FF"},{"text":"0.9","align":"r","fill":"#EEF3FF"},{"text":"1.5","align":"r","fill":"#EEF3FF"},{"text":"2.1","align":"r","fill":"#EEF3FF"},{"text":"4.5","align":"r","fill":"#EEF3FF"},{"text":"6","align":"r","fill":"#EEF3FF"},{"text":"15","align":"r","fill":"#EEF3FF"}],
+[{"text":"중고 IT 거래","bold":true,"color":"#1E2188","fill":"#EEF3FF"},{"text":"3.0","align":"r","fill":"#EEF3FF"},{"text":"12.0","align":"r","fill":"#EEF3FF"},{"text":"22.0","align":"r","fill":"#EEF3FF"},{"text":"45.0","align":"r","fill":"#EEF3FF"},{"text":"68","align":"r","fill":"#EEF3FF"},{"text":"150","align":"r","fill":"#EEF3FF"}],
+[{"text":"렌탈·리스 검수","bold":true,"color":"#1E2188","fill":"#EEF3FF"},{"text":"0.5","align":"r","fill":"#EEF3FF"},{"text":"1.0","align":"r","fill":"#EEF3FF"},{"text":"1.5","align":"r","fill":"#EEF3FF"},{"text":"3.0","align":"r","fill":"#EEF3FF"},{"text":"4","align":"r","fill":"#EEF3FF"},{"text":"10","align":"r","fill":"#EEF3FF"}],
+[{"text":"피지컬 AI 진단","bold":true,"color":"#1E2188","fill":"#EEF3FF"},{"text":"2.0","align":"r","fill":"#EEF3FF"},{"text":"4.0","align":"r","fill":"#EEF3FF"},{"text":"7.0","align":"r","fill":"#EEF3FF"},{"text":"13.0","align":"r","fill":"#EEF3FF"},{"text":"19","align":"r","fill":"#EEF3FF"},{"text":"45","align":"r","fill":"#EEF3FF"}],
+[{"text":"보험·보증 진단","bold":true,"color":"#1E2188","fill":"#EEF3FF"},{"text":"1.0","align":"r","fill":"#EEF3FF"},{"text":"1.0","align":"r","fill":"#EEF3FF"},{"text":"2.0","align":"r","fill":"#EEF3FF"},{"text":"5.0","align":"r","fill":"#EEF3FF"},{"text":"6","align":"r","fill":"#EEF3FF"},{"text":"15","align":"r","fill":"#EEF3FF"}],
+[{"text":"합계","bold":true,"color":"#1E2188","fill":"#DDE3F5"},{"text":"9.4","bold":true,"align":"r","fill":"#DDE3F5","color":"#1E2188"},{"text":"23.5","bold":true,"align":"r","fill":"#DDE3F5","color":"#1E2188"},{"text":"41.6","bold":true,"align":"r","fill":"#DDE3F5","color":"#1E2188"},{"text":"88.5","bold":true,"align":"r","fill":"#DDE3F5","color":"#1E2188"},{"text":"127","bold":true,"align":"r","fill":"#DDE3F5","color":"#106EB8"},{"text":"290","bold":true,"align":"r","fill":"#DDE3F5","color":"#1E2188"}]]}
+    </metadata>
+    <rect x="60" y="222" width="1160" height="36" rx="12" fill="url(#ribbon)"/>
+    <text x="84" y="247" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">영업부문</text>
+    <text x="432" y="247" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2027</text>
+    <text x="588" y="247" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2028</text>
+    <text x="744" y="247" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2029</text>
+    <text x="900" y="247" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2030</text>
+    <text x="1056" y="247" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2031</text>
+    <text x="1196" y="247" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">5개년</text>
+
+    <rect x="60" y="260" width="1160" height="36" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="285" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">IT 자산관리</text>
+    <text x="432" y="285" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">2.0</text>
+    <text x="588" y="285" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">4.0</text>
+    <text x="744" y="285" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">7.0</text>
+    <text x="900" y="285" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">18.0</text>
+    <text x="1056" y="285" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">24</text>
+    <text x="1196" y="285" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">55</text>
+
+    <rect x="60" y="298" width="1160" height="36" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="323" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">공공조달 검수</text>
+    <text x="432" y="323" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">0.9</text>
+    <text x="588" y="323" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">1.5</text>
+    <text x="744" y="323" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">2.1</text>
+    <text x="900" y="323" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">4.5</text>
+    <text x="1056" y="323" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">6</text>
+    <text x="1196" y="323" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">15</text>
+
+    <rect x="60" y="336" width="1160" height="36" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="361" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">중고 IT 거래</text>
+    <text x="432" y="361" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">3.0</text>
+    <text x="588" y="361" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">12.0</text>
+    <text x="744" y="361" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">22.0</text>
+    <text x="900" y="361" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">45.0</text>
+    <text x="1056" y="361" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">68</text>
+    <text x="1196" y="361" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">150</text>
+
+    <rect x="60" y="374" width="1160" height="36" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="399" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">렌탈·리스 검수</text>
+    <text x="432" y="399" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">0.5</text>
+    <text x="588" y="399" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">1.0</text>
+    <text x="744" y="399" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">1.5</text>
+    <text x="900" y="399" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">3.0</text>
+    <text x="1056" y="399" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">4</text>
+    <text x="1196" y="399" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">10</text>
+
+    <rect x="60" y="412" width="1160" height="36" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="437" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">피지컬 AI 진단</text>
+    <text x="432" y="437" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">2.0</text>
+    <text x="588" y="437" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">4.0</text>
+    <text x="744" y="437" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">7.0</text>
+    <text x="900" y="437" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">13.0</text>
+    <text x="1056" y="437" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">19</text>
+    <text x="1196" y="437" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">45</text>
+
+    <rect x="60" y="450" width="1160" height="36" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="475" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">보험·보증 진단</text>
+    <text x="432" y="475" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">1.0</text>
+    <text x="588" y="475" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">1.0</text>
+    <text x="744" y="475" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">2.0</text>
+    <text x="900" y="475" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">5.0</text>
+    <text x="1056" y="475" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">6</text>
+    <text x="1196" y="475" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#12152E">15</text>
+
+    <rect x="60" y="488" width="1160" height="38" rx="12" fill="#DDE3F5"/>
+    <text x="84" y="514" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">합계</text>
+    <text x="432" y="514" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">9.4</text>
+    <text x="588" y="514" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">23.5</text>
+    <text x="744" y="514" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">41.6</text>
+    <text x="900" y="514" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">88.5</text>
+    <text x="1056" y="514" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#106EB8">127</text>
+    <text x="1196" y="514" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#1E2188">290</text>
+  </g>
+
+  <g id="kpi-12m">
+    <rect x="60" y="538" width="370" height="126" rx="12" fill="#EEF3FF"/>
+    <text x="84" y="592" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#106EB8">투자 후 12개월</text>
+    <text x="226" y="598" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#1E2188">5.0억 원</text>
+    <text x="84" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">특판 유통 4.0 · 진단솔루션 SI 0.8 · 진단료 0.2</text>
+  </g>
+
+  <g id="kpi-2027">
+    <rect x="455" y="538" width="370" height="126" rx="12" fill="url(#ribbon)"/>
+    <text x="479" y="592" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" fill-opacity="0.85">2027년</text>
+    <text x="560" y="598" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">9.4억 원</text>
+    <text x="479" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">거래·유통 3.0 · 진단·플랫폼·구독 6.4</text>
+  </g>
+
+  <g id="kpi-2031">
+    <rect x="850" y="538" width="370" height="126" rx="12" fill="url(#deepPanel)"/>
+    <circle cx="1190" cy="562" r="56" fill="#FFFFFF" fill-opacity="0.08"/>
+    <text x="874" y="592" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" fill-opacity="0.85">2031년</text>
+    <text x="955" y="598" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#F1CE36" filter="url(#heroGlow)">127억 원</text>
+    <text x="874" y="632" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">거래·유통 68 · 진단·플랫폼·구독 59</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">출처: 당사 사업계획(2026.08) · 단위: 억 원 · 직전년도(2026) 실적과 비용 추정은 결산 자료 수령 후 반영 필요</text>
+    <image href="../images/sp_navy.png" x="1130" y="680" width="48" height="28" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1220" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">21</text>
+  </g>
+</svg>

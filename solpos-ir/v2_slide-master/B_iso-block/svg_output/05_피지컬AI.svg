@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="navyPlane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="100%" stop-color="#2D5BFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header">
+    <rect x="60" y="40" width="228" height="32" rx="4" fill="#1E2188"/>
+    <text x="174" y="62" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">4. 기술 · 피지컬 AI 확장</text>
+    <text x="60" y="126" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1E2188">동일 엔진으로 로봇 연산장치(ARM)까지 진단</text>
+  </g>
+
+  <g id="core-message">
+    <rect x="60" y="146" width="1160" height="84" rx="4" fill="#2D5BFF"/>
+    <text x="84" y="181" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">NVIDIA Jetson Orin NX·Raspberry Pi 실측 완료 ·
+      <tspan x="84" dy="34">x86에서 ARM 기반 피지컬 AI 장비로 적용 범위 확대</tspan>
+    </text>
+  </g>
+
+  <g id="evidence-jetson">
+    <rect x="60" y="246" width="234" height="274" rx="4" fill="#F1F3FA"/>
+    <image href="../images/image-12-2.png" x="72" y="258" width="210" height="196" preserveAspectRatio="xMidYMid meet"/>
+    <text x="177" y="478" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">Jetson Orin NX
+      <tspan x="177" dy="22">코어별 부하 시험</tspan>
+    </text>
+  </g>
+
+  <g id="evidence-csv">
+    <rect x="306" y="246" width="238" height="274" rx="4" fill="#F1F3FA"/>
+    <image href="../images/image-12-3.png" x="318" y="258" width="214" height="196" preserveAspectRatio="xMidYMid meet"/>
+    <text x="425" y="478" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">응답 CSV 모니터링
+      <tspan x="425" dy="22">(Raspberry Pi)</tspan>
+    </text>
+  </g>
+
+  <g id="evidence-turtlebot">
+    <rect x="556" y="246" width="220" height="274" rx="4" fill="#F1F3FA"/>
+    <image href="../images/image-12-4.png" x="568" y="258" width="196" height="196" preserveAspectRatio="xMidYMid meet"/>
+    <text x="666" y="489" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">TurtleBot3 실증 장비</text>
+  </g>
+
+  <g id="ai-engine">
+    <rect x="800" y="246" width="420" height="274" rx="4" fill="#1E2188"/>
+    <rect x="816" y="262" width="32" height="32" rx="4" fill="#F1CE36"/>
+    <use data-icon="chunk-filled/robot" x="822" y="268" width="20" height="20" fill="#1E2188"/>
+    <text x="860" y="286" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">AI 진단 엔진(계획)</text>
+    <rect x="816" y="306" width="388" height="42" rx="4" fill="#2D5BFF"/>
+    <text x="834" y="333" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">다중 데이터: CPU·GPU·전력·온도</text>
+    <rect x="816" y="356" width="388" height="42" rx="4" fill="#2D5BFF"/>
+    <text x="834" y="383" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">LSTM 오토인코더 + 데이터 융합</text>
+    <rect x="816" y="406" width="388" height="42" rx="4" fill="#2D5BFF"/>
+    <text x="834" y="433" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">LIME 기반 특성 기여도 분석</text>
+    <rect x="816" y="456" width="388" height="42" rx="4" fill="#2D5BFF"/>
+    <text x="834" y="483" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">이상 분석 시각화 UI</text>
+  </g>
+
+  <g id="vital-band">
+    <rect x="0" y="532" width="1280" height="188" fill="url(#navyPlane)"/>
+    <rect x="60" y="552" width="244" height="100" rx="4" fill="#FFFFFF"/>
+    <image href="../images/image-12-5.png" x="70" y="560" width="224" height="84" preserveAspectRatio="xMidYMid meet"/>
+    <text x="326" y="592" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">바이탈 미터:
+      <tspan x="326" dy="32">온도·전력·GPU·CPU 사용률 실시간 표시</tspan>
+    </text>
+    <text x="60" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.85">출처: 당사 「피지컬 AI 암코어」 기술 자료(2026.02) · 딥러닝 진단 엔진은 개발 계획</text>
+  </g>
+
+  <g id="three-year">
+    <rect x="800" y="552" width="32" height="32" rx="4" fill="#F1CE36"/>
+    <use data-icon="chunk-filled/rocket" x="806" y="558" width="20" height="20" fill="#1E2188"/>
+    <text x="844" y="576" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">3개년 확장</text>
+    <rect x="800" y="592" width="420" height="28" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="814" y="612" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">가동 패턴 검증, 안전 신뢰도 측정·경고</text>
+    <rect x="800" y="624" width="420" height="28" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="814" y="644" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">로봇 연산력 정규화, 코어 슬립 제어·재배치</text>
+    <rect x="800" y="656" width="420" height="28" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="814" y="676" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">3D 단층면 이상 추적, 비상대응망</text>
+  </g>
+
+  <g id="footer">
+    <image href="../images/sp_white.png" x="1130" y="690" width="48" height="28" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1220" y="710" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">12</text>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="cover">
+  <defs>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="55%" stop-color="#106EB8"/>
+      <stop offset="100%" stop-color="#22C3EE"/>
+    </linearGradient>
+    <radialGradient id="dieGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22C3EE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22C3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardLift" x="-15%" y="-25%" width="130%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1E2188" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="ambient">
+    <circle cx="1060" cy="330" r="280" fill="url(#dieGlow)" fill-opacity="0.15"/>
+    <circle cx="1132" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1152" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1172" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1192" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1212" cy="40" r="3" fill="#22C3EE" fill-opacity="0.15"/>
+    <circle cx="1132" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1152" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1172" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1192" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/><circle cx="1212" cy="60" r="3" fill="#22C3EE" fill-opacity="0.15"/>
+  </g>
+
+  <g id="die-hero">
+    <polygon points="880.0,330.0 1060.0,240.0 1240.0,330.0 1060.0,420.0" fill="#1E2188"/>
+    <polygon points="880.0,330.0 1060.0,420.0 1060.0,446.0 880.0,356.0" fill="#106EB8"/>
+    <polygon points="1060.0,420.0 1240.0,330.0 1240.0,356.0 1060.0,446.0" fill="#22C3EE"/>
+    <polygon points="883.0,361.0 897.0,368.0 897.0,380.0 883.0,373.0" fill="#106EB8"/>
+    <polygon points="1063.0,448.0 1077.0,441.0 1077.0,453.0 1063.0,460.0" fill="#22C3EE"/>
+    <polygon points="903.0,371.0 917.0,378.0 917.0,390.0 903.0,383.0" fill="#106EB8"/>
+    <polygon points="1083.0,438.0 1097.0,431.0 1097.0,443.0 1083.0,450.0" fill="#22C3EE"/>
+    <polygon points="923.0,381.0 937.0,388.0 937.0,400.0 923.0,393.0" fill="#106EB8"/>
+    <polygon points="1103.0,428.0 1117.0,421.0 1117.0,433.0 1103.0,440.0" fill="#22C3EE"/>
+    <polygon points="943.0,391.0 957.0,398.0 957.0,410.0 943.0,403.0" fill="#106EB8"/>
+    <polygon points="1123.0,418.0 1137.0,411.0 1137.0,423.0 1123.0,430.0" fill="#22C3EE"/>
+    <polygon points="963.0,401.0 977.0,408.0 977.0,420.0 963.0,413.0" fill="#106EB8"/>
+    <polygon points="1143.0,408.0 1157.0,401.0 1157.0,413.0 1143.0,420.0" fill="#22C3EE"/>
+    <polygon points="983.0,411.0 997.0,418.0 997.0,430.0 983.0,423.0" fill="#106EB8"/>
+    <polygon points="1163.0,398.0 1177.0,391.0 1177.0,403.0 1163.0,410.0" fill="#22C3EE"/>
+    <polygon points="1003.0,421.0 1017.0,428.0 1017.0,440.0 1003.0,433.0" fill="#106EB8"/>
+    <polygon points="1183.0,388.0 1197.0,381.0 1197.0,393.0 1183.0,400.0" fill="#22C3EE"/>
+    <polygon points="1023.0,431.0 1037.0,438.0 1037.0,450.0 1023.0,443.0" fill="#106EB8"/>
+    <polygon points="1203.0,378.0 1217.0,371.0 1217.0,383.0 1203.0,390.0" fill="#22C3EE"/>
+    <polygon points="1043.0,441.0 1057.0,448.0 1057.0,460.0 1043.0,453.0" fill="#106EB8"/>
+    <polygon points="1223.0,368.0 1237.0,361.0 1237.0,373.0 1223.0,380.0" fill="#22C3EE"/>
+    <polygon points="1060.0,268.0 1075.6,275.8 1060.0,283.6 1044.4,275.8" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1038.3,278.9 1053.9,286.7 1038.3,294.5 1022.7,286.7" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1016.7,289.7 1032.3,297.5 1016.7,305.3 1001.1,297.5" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="995.0,300.5 1010.6,308.3 995.0,316.1 979.4,308.3" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="973.3,311.4 988.9,319.2 973.3,327.0 957.7,319.2" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="951.7,322.2 967.3,330.0 951.7,337.8 936.1,330.0" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1081.7,278.9 1097.3,286.7 1081.7,294.5 1066.1,286.7" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1060.0,289.7 1075.6,297.5 1060.0,305.3 1044.4,297.5" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1038.3,300.5 1053.9,308.3 1038.3,316.1 1022.7,308.3" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1016.7,311.4 1032.3,319.2 1016.7,327.0 1001.1,319.2" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="995.0,322.2 1010.6,330.0 995.0,337.8 979.4,330.0" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="973.3,333.0 988.9,340.8 973.3,348.6 957.7,340.8" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1103.3,289.7 1118.9,297.5 1103.3,305.3 1087.7,297.5" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1081.7,300.5 1097.3,308.3 1081.7,316.1 1066.1,308.3" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1060.0,311.4 1075.6,319.2 1060.0,327.0 1044.4,319.2" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1038.3,322.2 1053.9,330.0 1038.3,337.8 1022.7,330.0" fill="#F1CE36" fill-opacity="1.0"/>
+    <polygon points="1016.7,333.0 1032.3,340.8 1016.7,348.6 1001.1,340.8" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="995.0,343.9 1010.6,351.7 995.0,359.5 979.4,351.7" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1125.0,300.5 1140.6,308.3 1125.0,316.1 1109.4,308.3" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1103.3,311.4 1118.9,319.2 1103.3,327.0 1087.7,319.2" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1081.7,322.2 1097.3,330.0 1081.7,337.8 1066.1,330.0" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1060.0,333.0 1075.6,340.8 1060.0,348.6 1044.4,340.8" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1038.3,343.9 1053.9,351.7 1038.3,359.5 1022.7,351.7" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1016.7,354.7 1032.3,362.5 1016.7,370.3 1001.1,362.5" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1146.7,311.4 1162.3,319.2 1146.7,327.0 1131.1,319.2" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1125.0,322.2 1140.6,330.0 1125.0,337.8 1109.4,330.0" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1103.3,333.0 1118.9,340.8 1103.3,348.6 1087.7,340.8" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1081.7,343.9 1097.3,351.7 1081.7,359.5 1066.1,351.7" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1060.0,354.7 1075.6,362.5 1060.0,370.3 1044.4,362.5" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1038.3,365.5 1053.9,373.3 1038.3,381.1 1022.7,373.3" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1168.3,322.2 1183.9,330.0 1168.3,337.8 1152.7,330.0" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1146.7,333.0 1162.3,340.8 1146.7,348.6 1131.1,340.8" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1125.0,343.9 1140.6,351.7 1125.0,359.5 1109.4,351.7" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1103.3,354.7 1118.9,362.5 1103.3,370.3 1087.7,362.5" fill="#106EB8" fill-opacity="0.75"/>
+    <polygon points="1081.7,365.5 1097.3,373.3 1081.7,381.1 1066.1,373.3" fill="#22C3EE" fill-opacity="1.0"/>
+    <polygon points="1060.0,376.4 1075.6,384.2 1060.0,392.0 1044.4,384.2" fill="#106EB8" fill-opacity="0.75"/>
+  </g>
+
+  <g id="brand-bar">
+    <image href="../images/sp_navy.png" x="60" y="44" width="120" height="70" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1100" y="82" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#106EB8">IR DECK  |  2026. 11</text>
+  </g>
+
+  <g id="headline">
+    <text x="60" y="206" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#106EB8">구간 가속 진단 기술이 적용된</text>
+    <text x="60" y="286" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="60" font-weight="bold" fill="#1E2188">컴퓨터·AI 반도체 성능 인증과
+      <tspan x="60" dy="78">평생관리 에이전트, 딥스펙</tspan>
+    </text>
+  </g>
+
+  <g id="process-chips">
+    <rect x="60" y="410" width="96" height="48" rx="12" fill="#EEF3FF"/>
+    <text x="108" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">측정</text>
+    <text x="174" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#22C3EE">→</text>
+    <rect x="192" y="410" width="160" height="48" rx="12" fill="#EEF3FF"/>
+    <text x="272" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">6등급 판정</text>
+    <text x="370" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#22C3EE">→</text>
+    <rect x="388" y="410" width="168" height="48" rx="12" fill="#EEF3FF"/>
+    <text x="472" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">시험성적서</text>
+    <text x="574" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#22C3EE">→</text>
+    <rect x="592" y="410" width="148" height="48" rx="12" fill="url(#ribbon)"/>
+    <text x="666" y="442" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">평생관리</text>
+  </g>
+
+  <g id="product-line">
+    <text x="60" y="518" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#5B6178">DeepSpec Auto v3.1 · DeepSpec Agent 2종 ·
+      <tspan x="60" dy="36">강원대 4개 캠퍼스 안심거래 플랫폼</tspan>
+    </text>
+  </g>
+
+  <g id="product-card">
+    <rect x="900" y="470" width="320" height="120" rx="12" fill="#FFFFFF" filter="url(#cardLift)"/>
+    <image href="../images/image-1-2.png" x="912" y="480" width="102" height="100" preserveAspectRatio="xMidYMid meet"/>
+    <image href="../images/ds_logo.png" x="1036" y="486" width="164" height="88" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g id="ribbon-band">
+    <rect x="0" y="616" width="1280" height="104" fill="url(#ribbon)"/>
+    <text x="60" y="676" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">솔포스 주식회사  |  대표이사 김창선  |  www.deepspec.kr</text>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="ending">
+  <defs>
+    <linearGradient id="keyBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="65%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <linearGradient id="goalStage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="55%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5CD0FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5CD0FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardRest" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1E2188" flood-opacity="0.10"/>
+    </filter>
+    <filter id="askGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#2D5BFF" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FF"/>
+
+  <g id="ambient" data-pptx-role="decoration">
+    <circle cx="1250" cy="20" r="200" fill="url(#bloom)" fill-opacity="0.15"/>
+  </g>
+
+  <g id="header">
+    <rect x="60" y="40" width="264" height="34" rx="17" fill="#2D5BFF"/>
+    <text x="192" y="63" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">10. 투자 제안 · 라운드 개요</text>
+    <text x="60" y="126" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1E2188">Seed 3억 원(TIPS 연계 포함 총 10억 원) 투자 유치</text>
+  </g>
+
+  <g id="core-message">
+    <rect x="60" y="146" width="1160" height="56" rx="28" fill="url(#keyBand)"/>
+    <text x="88" y="183" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">24개월 내 전국 3개 거점 · 입점 파트너 30개사 · 2028년 매출 약 24억 원</text>
+  </g>
+
+  <g id="terms">
+    <text x="60" y="250" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">투자 조건</text>
+    <rect x="60" y="266" width="560" height="48" rx="24" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <text x="84" y="296" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">라운드</text>
+    <text x="232" y="298" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#12152E">Seed</text>
+    <rect x="60" y="322" width="560" height="64" rx="32" fill="url(#keyBand)" filter="url(#askGlow)"/>
+    <text x="84" y="360" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">투자 유치 금액</text>
+    <text x="232" y="371" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="48" font-weight="bold" fill="#F1CE36">3억 원</text>
+    <rect x="60" y="394" width="560" height="48" rx="24" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <text x="84" y="424" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">TIPS 연계 포함</text>
+    <text x="232" y="426" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#12152E">총 10억 원</text>
+    <rect x="60" y="450" width="560" height="48" rx="24" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <text x="84" y="480" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">밸류에이션</text>
+    <text x="232" y="482" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#12152E">협의(IP 가치평가 24.18억 원 참고)</text>
+    <rect x="60" y="506" width="560" height="48" rx="24" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <text x="84" y="536" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">정부 매칭</text>
+    <text x="232" y="538" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#12152E">강원권 LIPS 별도 병행</text>
+  </g>
+
+  <g id="shareholders">
+    <rect x="60" y="566" width="560" height="98" rx="22" fill="#DDE3F5"/>
+    <text x="84" y="596" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">주주 구성</text>
+    <text x="84" y="624" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" fill="#1E2188">대표이사 김창선 및 경영진 중심
+      <tspan x="84" dy="26">(지분율·기존 투자사는 기업 확인 후 기재)</tspan>
+    </text>
+  </g>
+
+  <g id="goal-stage">
+    <rect x="644" y="218" width="636" height="446" fill="url(#goalStage)"/>
+    <circle cx="1220" cy="270" r="120" fill="#FFFFFF" fill-opacity="0.08"/>
+    <circle cx="700" cy="640" r="70" fill="#FFFFFF" fill-opacity="0.08"/>
+    <use data-icon="phosphor-duotone/chart-line-up" x="668" y="234" width="28" height="28" fill="#FFFFFF"/>
+    <text x="706" y="256" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">24개월 목표</text>
+
+    <rect x="668" y="274" width="552" height="88" rx="22" fill="#FFFFFF"/>
+    <text x="690" y="327" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#2D5BFF">매출 33억 원</text>
+    <text x="870" y="312" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#12152E">향후 2개년 누적(중고·신품 IT 기기
+      <tspan x="870" dy="24">거래, 피지컬 AI 진단 수수료)</tspan>
+    </text>
+
+    <rect x="668" y="372" width="552" height="88" rx="22" fill="#FFFFFF" fill-opacity="0.16"/>
+    <text x="690" y="425" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">월 5,000건</text>
+    <text x="870" y="410" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">전국 다자간 안심거래 플랫폼 확대,
+      <tspan x="870" dy="24">파트너사 5개사 이상 정식 계약</tspan>
+    </text>
+
+    <rect x="668" y="470" width="552" height="88" rx="22" fill="#FFFFFF" fill-opacity="0.16"/>
+    <text x="690" y="523" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">베타 출시</text>
+    <text x="870" y="520" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">피지컬 AI 3D 이상 추적·비상대응망</text>
+
+    <rect x="668" y="568" width="552" height="88" rx="22" fill="#FFFFFF" fill-opacity="0.16"/>
+    <text x="690" y="621" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">Pre-A 20억 원</text>
+    <text x="870" y="618" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">상용화 실적 기반 후속 투자 유치</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">출처: 당사 제안 기준(도전의 IR 발표 자료, 2026.11) · 밸류에이션·투자 조건은 협의, 주주 구성은 기업 확인 필요</text>
+    <image href="../images/sp_navy.png" x="1130" y="680" width="48" height="28" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1220" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">23</text>
+  </g>
+</svg>

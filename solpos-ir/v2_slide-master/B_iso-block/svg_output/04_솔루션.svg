@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="navyPlane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="100%" stop-color="#2D5BFF"/>
+    </linearGradient>
+    <filter id="frameLift" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#12152E" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header">
+    <rect x="60" y="40" width="222" height="32" rx="4" fill="#1E2188"/>
+    <text x="171" y="62" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">3. 솔루션 · 서비스 구조</text>
+    <text x="60" y="126" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1E2188">PC에 설치해 측정하고, 웹에서 시험성적서 발급</text>
+  </g>
+
+  <g id="core-message">
+    <rect x="60" y="146" width="1160" height="56" rx="4" fill="#2D5BFF"/>
+    <text x="84" y="183" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">설치파일 하나로 측정 · 추가 장비 불필요 · 결과는 6등급과 QR 인증 성적서로 제공</text>
+  </g>
+
+  <g id="platform-block">
+    <rect x="0" y="222" width="560" height="498" fill="url(#navyPlane)"/>
+    <rect x="60" y="248" width="460" height="379" rx="4" fill="#FFFFFF" filter="url(#frameLift)"/>
+    <image href="../images/image-6-2.png" x="70" y="258" width="440" height="359" preserveAspectRatio="xMidYMid meet"/>
+    <text x="60" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.85">출처: deepspec.kr 화면(2026.11)</text>
+  </g>
+
+  <g id="step-1">
+    <rect x="584" y="222" width="636" height="76" rx="4" fill="#F1F3FA"/>
+    <rect x="600" y="236" width="48" height="48" rx="4" fill="#1E2188"/>
+    <use data-icon="chunk-filled/arrow-down-to-line" x="610" y="246" width="28" height="28" fill="#FFFFFF"/>
+    <text x="670" y="254" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">01</text>
+    <text x="704" y="254" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">에이전트 설치</text>
+    <text x="670" y="284" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">DeepSpec 에이전트(.msi) 다운로드, 로그인하면 기기 자동 등록</text>
+  </g>
+
+  <g id="step-2">
+    <rect x="584" y="308" width="636" height="98" rx="4" fill="#F1F3FA"/>
+    <rect x="600" y="322" width="48" height="48" rx="4" fill="#1E2188"/>
+    <use data-icon="chunk-filled/gauge-high" x="610" y="332" width="28" height="28" fill="#FFFFFF"/>
+    <text x="670" y="340" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">02</text>
+    <text x="704" y="340" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">가속 부하 측정</text>
+    <text x="670" y="370" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">사용률 60 → 80 → 100% 구간별로
+      <tspan x="670" dy="24">부하를 올리며 속도·온도·연산량 수집</tspan>
+    </text>
+  </g>
+
+  <g id="step-3">
+    <rect x="584" y="416" width="636" height="76" rx="4" fill="#F1F3FA"/>
+    <rect x="600" y="430" width="48" height="48" rx="4" fill="#1E2188"/>
+    <use data-icon="chunk-filled/badge-check" x="610" y="440" width="28" height="28" fill="#FFFFFF"/>
+    <text x="670" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">03</text>
+    <text x="704" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">6등급 판정</text>
+    <text x="670" y="478" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">24개 품질 지표를 A+ ~ C 6단계 등급으로 환산</text>
+  </g>
+
+  <g id="step-4">
+    <rect x="584" y="502" width="636" height="76" rx="4" fill="#1E2188"/>
+    <rect x="600" y="516" width="48" height="48" rx="4" fill="#F1CE36"/>
+    <use data-icon="chunk-filled/file" x="610" y="526" width="28" height="28" fill="#1E2188"/>
+    <text x="670" y="534" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#F1CE36">04</text>
+    <text x="704" y="534" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">시험성적서 발급</text>
+    <text x="670" y="564" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">웹에서 PDF 성적서 발급, QR로 진위 확인</text>
+  </g>
+
+  <g id="use-cases">
+    <rect x="584" y="588" width="636" height="76" rx="4" fill="#DDE3F5"/>
+    <text x="604" y="634" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">활용처</text>
+    <rect x="700" y="598" width="252" height="26" rx="4" fill="#FFFFFF"/>
+    <text x="826" y="617" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">중고 거래 가격 기준</text>
+    <rect x="960" y="598" width="252" height="26" rx="4" fill="#FFFFFF"/>
+    <text x="1086" y="617" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">기업 IT 자산 실사</text>
+    <rect x="700" y="628" width="252" height="26" rx="4" fill="#FFFFFF"/>
+    <text x="826" y="647" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">렌탈 반납 검수</text>
+    <rect x="960" y="628" width="252" height="26" rx="4" fill="#FFFFFF"/>
+    <text x="1086" y="647" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">보험·보증 심사 자료</text>
+  </g>
+
+  <g id="footer">
+    <image href="../images/sp_navy.png" x="1130" y="680" width="48" height="28" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1220" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">06</text>
+  </g>
+</svg>

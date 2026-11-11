@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="keyBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="65%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2188"/>
+      <stop offset="55%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <linearGradient id="iconTile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D5BFF"/>
+      <stop offset="100%" stop-color="#6FA8FF"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5CD0FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5CD0FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardRest" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1E2188" flood-opacity="0.10"/>
+    </filter>
+    <filter id="frameLift" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1E2188" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FF"/>
+
+  <g id="ambient" data-pptx-role="decoration">
+    <circle cx="1250" cy="20" r="200" fill="url(#bloom)" fill-opacity="0.15"/>
+  </g>
+
+  <g id="header">
+    <rect x="60" y="40" width="232" height="34" rx="17" fill="#2D5BFF"/>
+    <text x="176" y="63" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">3. 솔루션 · 서비스 구조</text>
+    <text x="60" y="126" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" font-weight="bold" fill="#1E2188">PC에 설치해 측정하고, 웹에서 시험성적서 발급</text>
+  </g>
+
+  <g id="core-message">
+    <rect x="60" y="146" width="1160" height="56" rx="28" fill="url(#keyBand)"/>
+    <text x="88" y="183" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">설치파일 하나로 측정 · 추가 장비 불필요 · 결과는 6등급과 QR 인증 성적서로 제공</text>
+  </g>
+
+  <g id="step-1">
+    <rect x="60" y="222" width="640" height="76" rx="20" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <rect x="78" y="236" width="48" height="48" rx="14" fill="url(#iconTile)"/>
+    <use data-icon="phosphor-duotone/download" x="88" y="246" width="28" height="28" fill="#FFFFFF"/>
+    <text x="146" y="254" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">01</text>
+    <text x="180" y="254" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">에이전트 설치</text>
+    <text x="146" y="284" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">DeepSpec 에이전트(.msi) 다운로드, 로그인하면 기기 자동 등록</text>
+  </g>
+
+  <g id="step-2">
+    <rect x="60" y="308" width="640" height="98" rx="20" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <rect x="78" y="322" width="48" height="48" rx="14" fill="url(#iconTile)"/>
+    <use data-icon="phosphor-duotone/gauge" x="88" y="332" width="28" height="28" fill="#FFFFFF"/>
+    <text x="146" y="340" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">02</text>
+    <text x="180" y="340" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">가속 부하 측정</text>
+    <text x="146" y="370" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">사용률 60 → 80 → 100% 구간별로
+      <tspan x="146" dy="24">부하를 올리며 속도·온도·연산량 수집</tspan>
+    </text>
+  </g>
+
+  <g id="step-3">
+    <rect x="60" y="416" width="640" height="76" rx="20" fill="#FFFFFF" filter="url(#cardRest)"/>
+    <rect x="78" y="430" width="48" height="48" rx="14" fill="url(#iconTile)"/>
+    <use data-icon="phosphor-duotone/medal" x="88" y="440" width="28" height="28" fill="#FFFFFF"/>
+    <text x="146" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#2D5BFF">03</text>
+    <text x="180" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">6등급 판정</text>
+    <text x="146" y="478" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#5B6178">24개 품질 지표를 A+ ~ C 6단계 등급으로 환산</text>
+  </g>
+
+  <g id="step-4">
+    <rect x="60" y="502" width="640" height="76" rx="20" fill="url(#keyBand)"/>
+    <rect x="78" y="516" width="48" height="48" rx="14" fill="#FFFFFF"/>
+    <use data-icon="phosphor-duotone/certificate" x="88" y="526" width="28" height="28" fill="#2D5BFF"/>
+    <text x="146" y="534" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#F1CE36">04</text>
+    <text x="180" y="534" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">시험성적서 발급</text>
+    <text x="146" y="564" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#FFFFFF">웹에서 PDF 성적서 발급, QR로 진위 확인</text>
+  </g>
+
+  <g id="use-cases">
+    <rect x="60" y="588" width="640" height="76" rx="20" fill="#DDE3F5"/>
+    <text x="84" y="634" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" font-weight="bold" fill="#1E2188">활용처</text>
+    <rect x="176" y="598" width="252" height="26" rx="13" fill="#FFFFFF"/>
+    <text x="302" y="617" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">중고 거래 가격 기준</text>
+    <rect x="436" y="598" width="252" height="26" rx="13" fill="#FFFFFF"/>
+    <text x="562" y="617" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">기업 IT 자산 실사</text>
+    <rect x="176" y="628" width="252" height="26" rx="13" fill="#FFFFFF"/>
+    <text x="302" y="647" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">렌탈 반납 검수</text>
+    <rect x="436" y="628" width="252" height="26" rx="13" fill="#FFFFFF"/>
+    <text x="562" y="647" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">보험·보증 심사 자료</text>
+  </g>
+
+  <g id="platform-stage">
+    <rect x="724" y="222" width="556" height="442" fill="url(#stage)"/>
+    <circle cx="1210" cy="300" r="150" fill="#FFFFFF" fill-opacity="0.08"/>
+    <circle cx="790" cy="620" r="90" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="749" y="241" width="486" height="400" rx="18" fill="#FFFFFF" filter="url(#frameLift)"/>
+    <image href="../images/image-6-2.png" x="759" y="251" width="466" height="380" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5B6178">출처: deepspec.kr 화면(2026.11)</text>
+    <image href="../images/sp_navy.png" x="1130" y="680" width="48" height="28" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1220" y="700" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" font-weight="bold" fill="#1E2188">06</text>
+  </g>
+</svg>
